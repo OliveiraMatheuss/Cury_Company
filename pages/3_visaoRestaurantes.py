@@ -15,7 +15,7 @@ st.set_page_config(page_title= 'Visão Restaurantes',
                    layout= 'wide')
 
 # Import dataset
-df = pd.read_csv('../datasets/train.csv')
+df = pd.read_csv('datasets/train.csv')
 df1 = df.copy()
 
 
@@ -69,7 +69,7 @@ df1['Time_taken(min)']  = df1['Time_taken(min)'].astype( int )
 # =======================================
 st.header( 'Marketplace - Visão Restaurantes' )
 
-image_path = '../images/ifood.png'
+image_path = 'images/ifood.png'
 image = Image.open( image_path )
 st.sidebar.image( image, width=120 )
 

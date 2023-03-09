@@ -26,7 +26,7 @@ def rank (df2, city, ascending):
 
 
 # dados ==============================================================================================
-df = pd.read_csv('../datasets/train.csv')
+df = pd.read_csv('datasets/train.csv')
 #print(df.head())
 
 #Limpeza de dos Dados

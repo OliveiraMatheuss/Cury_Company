@@ -104,7 +104,7 @@ def mapMaker(df1):
 
 #Carga de Dados
 
-df = pd.read_csv('datasests/train.csv')
+df = pd.read_csv('datasets/train.csv')
 df1 = clean_code(df)
 
 #=======================================================================================
