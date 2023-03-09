@@ -69,9 +69,9 @@ df1['Time_taken(min)']  = df1['Time_taken(min)'].astype( int )
 # =======================================
 st.header( 'Marketplace - Visão Restaurantes' )
 
-image_path = 'Images/ifood.png'
-image = Image.open( image_path )
-st.sidebar.image( image, width=120 )
+#image_path = 'Images/ifood.png'
+#image = Image.open( image_path )
+#st.sidebar.image( image, width=120 )
 
 st.sidebar.markdown( '# Cury Company' )
 st.sidebar.markdown( '## Fastest Delivery in Town' )

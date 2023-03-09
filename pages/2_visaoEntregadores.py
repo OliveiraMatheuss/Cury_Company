@@ -84,8 +84,8 @@ df1['Time_taken(min)'] = df1['Time_taken(min)'].apply(lambda x: x.replace('(min)
 st.header('Marketplace - Visão dos Entregadores')
 
 image_path = 'Images/ifood.png'
-image = Image.open(image_path)
-st.sidebar.image(image, width = 120)
+#image = Image.open(image_path)
+#st.sidebar.image(image, width = 120)
 
 st.sidebar.markdown("# Cury Company")
 st.sidebar.markdown('*Fast Delivery in town*')

@@ -113,9 +113,9 @@ df1 = clean_code(df)
 
 st.header('Marketplace - Visão da Empresa')
 
-image_path = 'Images/ifood.png'
-image = Image.open(image_path)
-st.sidebar.image(image, width = 120)
+#image_path = 'Images/ifood.png'
+#image = Image.open(image_path)
+#st.sidebar.image(image, width = 120)
 
 st.sidebar.markdown("# Cury Company")
 st.sidebar.markdown('*Fast Delivery in town*')
