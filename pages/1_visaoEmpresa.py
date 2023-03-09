@@ -113,7 +113,7 @@ df1 = clean_code(df)
 
 st.header('Marketplace - Visão da Empresa')
 
-image_path = 'images/ifood.png'
+image_path = 'Images/ifood.png'
 image = Image.open(image_path)
 st.sidebar.image(image, width = 120)
 
