@@ -4,7 +4,7 @@ from PIL import Image
 st.set_page_config(
     page_title= 'Home')
 
-image_path = 'images/ifood.png'
+image_path = 'Images/ifood.png'
 image = Image.open(image_path)
 st.sidebar.image(image, width = 120)
 
